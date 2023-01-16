@@ -34,9 +34,15 @@ h2 {
 /* hero image*/
 
 #hero-image {
-    height: 600px;
+    height: 765px;
     width: 100%;
-    background: url(//assets/images/placeholder.jpg);
+    background: url('../images/placeholder.jpg') center center;
+}
+
+#hero-image>h2 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px
 }
 
 /* nav links*/
@@ -87,6 +93,7 @@ nav ul {
     overflow: hidden;
     position: relative;
     text-align: center;
+    padding: 20px;
 
 }
 
@@ -97,7 +104,8 @@ nav ul {
     display: inline-block;
     text-align: center;
     margin: auto;
-    background: url(//assets/images/placeholder.jpg);
+    background: url('../images/placeholder.jpg') center center no-repeat;
+    padding: 20px;
 }
 
 #intro>p {
@@ -106,7 +114,15 @@ nav ul {
 }
 
 #war-timeline>div {
-    background: url(//assets/images/placeholder.jpg);
+    background: url('../images/placeholder.jpg') center center;
     height: 300px;
-    width: 300px;
+    width: 100%;
 }
+
+#war-casualties>div {
+    background: url('../images/placeholder.jpg') center center;
+    height: 300px;
+    width: 100%;
+}
+
+/* Footer */

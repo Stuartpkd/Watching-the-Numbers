@@ -90,22 +90,26 @@ nav ul {
 
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    padding: 20px;
+
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
 
 }
 
 #intro>div {
 
     height: 500px;
-    width: 300px;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+
+
+
     background: url('../images/placeholder.jpg') center center no-repeat;
-    padding: 20px;
+
 }
 
 #intro>p {
@@ -113,16 +117,38 @@ nav ul {
     display: block;
 }
 
+#war-timeline {
+    padding: 30px;
+}
+
 #war-timeline>div {
     background: url('../images/placeholder.jpg') center center;
-    height: 300px;
+    height: 500px;
     width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+#war-timeline>p {
+    text-align: left;
+}
+
+#war-casualties {
+    padding: 30px;
 }
 
 #war-casualties>div {
     background: url('../images/placeholder.jpg') center center;
-    height: 300px;
+    height: 500px;
     width: 100%;
+
 }
 
 /* Footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: url('../images/placeholder.jpg') center center;
+}

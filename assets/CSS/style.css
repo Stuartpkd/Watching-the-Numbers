@@ -27,4 +27,18 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
+
+}
+
+/* nav links*/
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    margin-right: 40px;
+
+}
+
+nav ul {
+    float: right;
 }

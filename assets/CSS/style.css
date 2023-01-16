@@ -36,7 +36,7 @@ h2 {
 #hero-image {
     height: 765px;
     width: 100%;
-    background: url('../images/placeholder.jpg') center center;
+    background: url('../images/hero-image.jpg') center center;
 }
 
 #hero-image>h2 {
@@ -131,6 +131,11 @@ nav ul {
 
 #war-timeline>p {
     text-align: left;
+    width: 508px;
+
+
+
+
 }
 
 #war-casualties {
@@ -142,6 +147,11 @@ nav ul {
     height: 500px;
     width: 100%;
 
+}
+
+#war-casualties>p {
+    text-align: left;
+    width: 508px;
 }
 
 /* Footer */

@@ -10,7 +10,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #232323;
-    background-color: #EEEEEE;
+
 }
 
 /* header and logo styling */
@@ -27,7 +27,16 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
+    padding-left: 15px;
 
+}
+
+/* hero image*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(//assets/images/placeholder.jpg);
 }
 
 /* nav links*/
@@ -38,6 +47,7 @@ h2 {
     margin-right: 40px;
 
 }
+
 
 #menu,
 #logo {
@@ -69,3 +79,34 @@ nav ul {
 
 
 /* Section styling */
+
+#intro {
+
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+}
+
+#intro>div {
+
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    background: url(//assets/images/placeholder.jpg);
+}
+
+#intro>p {
+    text-align: center;
+    display: block;
+}
+
+#war-timeline>div {
+    background: url(//assets/images/placeholder.jpg);
+    height: 300px;
+    width: 300px;
+}

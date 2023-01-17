@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap');
+
 
 * {
     margin: 0;
@@ -12,6 +13,12 @@ body {
     color: #232323;
     background-color: #a34646;
 
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
 }
 
 /* header and logo styling */
@@ -85,7 +92,7 @@ nav ul {
 }
 
 
-/* Section styling */
+/* Index Section styling */
 
 #intro {
 
@@ -153,6 +160,38 @@ nav ul {
     text-align: left;
     width: 508px;
 }
+
+/* Events hero image styling*/
+
+#hero-image-events {
+    height: 765px;
+    max-width: 100%;
+}
+
+/* Events Section styling*/
+
+#scenarios {
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+}
+
+#scenarios>div {
+    height: 500px;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin: 25px;
+
+
+
+    background-color: #eeeeee;
+}
+
 
 /* Footer */
 

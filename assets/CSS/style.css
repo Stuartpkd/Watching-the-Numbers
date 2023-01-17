@@ -10,8 +10,8 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #232323;
-    background-color: #a34646;
+    color: #a34646;
+    background-color: #29262b;
 
 }
 
@@ -28,7 +28,7 @@ h2 {
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #353535;
+    color: #29262b;
 
 }
 
@@ -59,6 +59,7 @@ h2 {
     font-size: 110%;
     list-style-type: none;
     margin-right: 40px;
+    color: #29262b;
 
 }
 
@@ -128,12 +129,28 @@ nav ul {
     padding: 30px;
 }
 
-#war-timeline>div {
-    background-color: #eeeeee;
-    height: 500px;
-    width: 100%;
-    display: flex;
-    justify-content: left;
+#europe-graph {
+
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+
+
+    background: url(..//images/graph_1-100.jpg) center center no-repeat;
+}
+
+#asia-graph {
+
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+
+
+    background: url(..//images/graph_1-100.jpg) center center no-repeat;
 }
 
 #war-timeline>p {
@@ -149,12 +166,7 @@ nav ul {
     padding: 30px;
 }
 
-#war-casualties>div {
-    background-color: #eeeeee;
-    height: 500px;
-    width: 100%;
 
-}
 
 #war-casualties>p {
     text-align: left;

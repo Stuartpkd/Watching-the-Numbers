@@ -17,7 +17,7 @@ body {
 
 p {
     font-family: Montserrat, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: xx-large;
 }
 
@@ -166,6 +166,7 @@ nav ul {
 #hero-image-events {
     height: 765px;
     max-width: 100%;
+    background: url(..//images/hero-image2-100.jpg) center center;
 }
 
 /* Events Section styling*/
@@ -190,6 +191,10 @@ nav ul {
 
 
     background-color: #eeeeee;
+}
+
+#scenarios>h2 {
+    font-weight: 400;
 }
 
 

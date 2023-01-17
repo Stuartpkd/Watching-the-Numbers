@@ -10,6 +10,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #232323;
+    background-color: #a34646;
 
 }
 
@@ -35,8 +36,8 @@ h2 {
 
 #hero-image {
     height: 765px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') center center;
+    max-width: 100%;
+    background: url('../images/hero-imagetest.jpg') center center no-repeat;
 }
 
 #hero-image>h2 {
@@ -108,8 +109,7 @@ nav ul {
 
 
 
-    background: url('../images/placeholder.jpg') center center no-repeat;
-
+    background-color: #eeeeee;
 }
 
 #intro>p {
@@ -122,7 +122,7 @@ nav ul {
 }
 
 #war-timeline>div {
-    background: url('../images/placeholder.jpg') center center;
+    background-color: #eeeeee;
     height: 500px;
     width: 100%;
     display: flex;
@@ -143,7 +143,7 @@ nav ul {
 }
 
 #war-casualties>div {
-    background: url('../images/placeholder.jpg') center center;
+    background-color: #eeeeee;
     height: 500px;
     width: 100%;
 
@@ -160,5 +160,5 @@ footer {
     width: 100%;
     height: 150px;
     text-align: center;
-    background: url('../images/placeholder.jpg') center center;
+    background-color: #af5454;
 }

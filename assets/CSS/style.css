@@ -265,6 +265,46 @@ nav ul {
     font-weight: 400;
 }
 
+/* Sources styling */
+
+#sources {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+
+    padding: 40px 40px 60px 40px;
+    flex-direction: column;
+
+
+
+
+}
+
+#sources>h1 {
+    padding: 20px 20px;
+}
+
+#sources-container>div>div {
+    text-align: left;
+    padding: 20px 20px;
+
+}
+
+/* Form styling */
+
+#form {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+
+    padding: 40px 40px 60px 40px;
+    flex-direction: column;
+}
+
+#form>div {
+    padding: 100px 30px 30px;
+}
+
 
 /* Footer */
 
@@ -274,5 +314,6 @@ footer {
     text-align: center;
     background-color: #af5454;
     padding: 70px;
+
 
 }

@@ -21,6 +21,13 @@ p {
     font-size: xx-large;
 }
 
+/* arrow styling*/
+
+#arrow-down {
+    text-align: center;
+
+}
+
 /* header and logo styling */
 
 h1,
@@ -111,7 +118,7 @@ nav ul {
 .outer-div {
 
     height: 600px;
-    width: 100%;
+    max-width: 100%;
 
     display: flex;
 
@@ -169,13 +176,14 @@ nav ul {
 
 #war-timeline {
     height: 1000px;
-    width: 100%;
+    max-width: 100%;
 
     display: flex;
 
-    align-content: center;
+
     justify-content: center;
-    margin: 40px 0;
+    margin: 70px 0;
+    padding: 40px 40px;
 }
 
 #casualties-container {
@@ -184,6 +192,7 @@ nav ul {
 
 #casualties-container>h1 {
     padding: 92px 0 0 40px;
+
 }
 
 #asia-graph {

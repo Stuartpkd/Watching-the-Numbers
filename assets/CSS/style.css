@@ -11,7 +11,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #a34646;
-    background-color: #29262b;
+    background-color: #28262c;
 
 }
 
@@ -28,7 +28,7 @@ h2 {
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #29262b;
+    color: #a34646;
 
 }
 
@@ -42,15 +42,19 @@ h2 {
 /* hero image*/
 
 #hero-image {
-    height: 765px;
+    height: 969px;
     max-width: 100%;
-    background: url('../images/hero-imagetest.jpg') center center no-repeat;
+    /*background: url('../images/hero-imagetest.jpg') center center no-repeat;*/
+    background: url(..//svg/hero_image_index.svg) center center no-repeat;
+    background-size: cover;
 }
 
 #hero-image>h2 {
     position: absolute;
     bottom: 40px;
-    left: 40px
+    left: 40px;
+    color: #28262c;
+    font-size: 150%;
 }
 
 /* nav links*/
@@ -59,9 +63,10 @@ h2 {
     font-size: 110%;
     list-style-type: none;
     margin-right: 40px;
-    color: #29262b;
+    color: #a34646;
 
 }
+
 
 
 #menu,
@@ -104,7 +109,13 @@ nav ul {
 
     align-content: center;
     justify-content: center;
+    margin: 70px 0;
 
+}
+
+#intro h2 {
+
+    padding: 30px 0 0 0px;
 }
 
 #intro>div {

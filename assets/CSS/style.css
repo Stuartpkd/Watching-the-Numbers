@@ -153,7 +153,7 @@ nav ul {
     text-align: left;
 }
 
-#war-timeline {}
+
 
 #europe-graph {
 
@@ -165,6 +165,25 @@ nav ul {
 
 
     background: url(..//images/graph_1-100.jpg) center center no-repeat;
+}
+
+#war-timeline {
+    height: 1000px;
+    width: 100%;
+
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#casualties-container {
+    padding: 40px 40px;
+}
+
+#casualties-container>h1 {
+    padding: 92px 0 0 40px;
 }
 
 #asia-graph {
@@ -179,9 +198,11 @@ nav ul {
     background: url(..//images/graph_1-100.jpg) center center no-repeat;
 }
 
-#war-timeline>p {
+#casualties-container>p {
     text-align: left;
-    width: 508px;
+    width: 1000px;
+    padding: 30px 30px;
+
 
 
 
@@ -243,4 +264,6 @@ footer {
     height: 150px;
     text-align: center;
     background-color: #af5454;
+    padding: 70px;
+
 }

@@ -55,10 +55,11 @@ h2 {
 
 #hero-image {
     height: 969px;
-    max-width: 100%;
+    width: 100%;
 
     background: url(..//svg/hero_image_index.svg) center center no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 #hero-image>h2 {
@@ -129,7 +130,7 @@ nav ul {
 
     align-content: center;
     justify-content: center;
-    margin: 70px 0;
+    margin: 0 auto;
     background: url(..//svg/Artboard\ 1.svg);
 
 
@@ -315,51 +316,43 @@ nav ul {
 /* Form styling */
 
 #form-section {
-    width: 100px;
-    height: 100px;
-    margin: auto;
+    height: 600px;
+    width: 100%;
+    padding: 120px 0 0 0;
+    margin: 30px;
 
+    display: flex;
 
-
-
-
-
-
+    align-content: center;
+    justify-content: center;
 }
 
-form {
-    height: 100px;
+#form-container {
     width: 100px;
-    max-width: 1000px;
+    height: 100px;
+    margin: 40px 40px;
+    padding: 30px 30px 30px 30px;
+}
+
+
+
+
+
+#form-image {
+    background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
+    height: 500px;
+    width: 500px;
+
 
 
 }
 
 #form-image-container {
-
-    height: 600px;
-    width: 500px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-
-}
-
-#form-image {
-    background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
-    height: 500px;
-    text-align: left;
-    width: 500px;
-    padding: 20px;
-    margin: auto;
-
+    padding: 0 80px 0 0;
 }
 
 #form>div {
-    padding: 100px 30px 30px;
+    padding: 0;
 }
 
 #form-text {
@@ -388,4 +381,24 @@ footer {
     padding: 70px;
 
 
+}
+
+/* Media queries*/
+
+@media screen and (max-width: 1200px) {
+    #intro {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #hero-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #war-timeline {
+        padding: 30px, 0;
+        margin: 0;
+    }
 }

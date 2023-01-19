@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&family=Sofia+Sans:wght@400;500;600;700&display=swap');
+
 
 
 * {
@@ -37,6 +38,8 @@ h2 {
     letter-spacing: 2px;
     color: #a34646;
 
+
+
 }
 
 #logo {
@@ -53,7 +56,7 @@ h2 {
 #hero-image {
     height: 969px;
     max-width: 100%;
-    /*background: url('../images/hero-imagetest.jpg') center center no-repeat;*/
+
     background: url(..//svg/hero_image_index.svg) center center no-repeat;
     background-size: cover;
 }
@@ -234,7 +237,7 @@ nav ul {
 /* Events hero image styling*/
 
 #hero-image-events {
-    height: 765px;
+    height: 969px;
     max-width: 100%;
     background: url(..//svg/events-hero.svg) center center no-repeat;
     background-size: cover;
@@ -245,11 +248,14 @@ nav ul {
 #scenarios {
     height: 600px;
     width: 100%;
+    padding: 30px 0;
+    margin: 30px;
 
     display: flex;
 
     align-content: center;
     justify-content: center;
+
 }
 
 #scenarios>div {
@@ -268,8 +274,17 @@ nav ul {
     background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
 }
 
-#scenarios>h2 {
+#country-text {
+    padding-top: 10px;
+}
+
+#scenarios>div>h2 {
     font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#scenarios>div>p {
+    padding-top: 10px;
 }
 
 /* Sources styling */
@@ -299,17 +314,44 @@ nav ul {
 
 /* Form styling */
 
+#form-section {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 #form {
     height: 100px;
-    width: 1000px;
+    width: 100px;
+    max-width: 1000px;
     display: flex;
 
-    padding: 40px 40px 60px 40px;
+    padding: 0;
     flex-direction: column;
 }
 
 #form>div {
     padding: 100px 30px 30px;
+}
+
+#form-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    margin-top: 30px;
+
+    padding: 10px;
+    color: #28262c;
+    background-color: #a34646;
+    font-family: Montserrat, sans-serif;
+    font-size: medium;
 }
 
 

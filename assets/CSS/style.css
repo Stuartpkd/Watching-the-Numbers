@@ -317,20 +317,17 @@ nav ul {
 #form-section {
     width: 100px;
     height: 100px;
-    position: absolute;
     margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
 
-    padding: 0;
-    flex-direction: row;
+
+
+
+
+
 
 }
 
-#form {
+form {
     height: 100px;
     width: 100px;
     max-width: 1000px;
@@ -343,7 +340,6 @@ nav ul {
     height: 600px;
     width: 500px;
     position: absolute;
-    margin: auto;
     left: 0;
     right: 0;
     top: 0;

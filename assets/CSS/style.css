@@ -323,16 +323,43 @@ nav ul {
     right: 0;
     top: 0;
     bottom: 0;
+    display: flex;
+
+    padding: 0;
+    flex-direction: row;
+
 }
 
 #form {
     height: 100px;
     width: 100px;
     max-width: 1000px;
-    display: flex;
 
-    padding: 0;
-    flex-direction: column;
+
+}
+
+#form-image-container {
+
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+
+}
+
+#form-image {
+    background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
+    height: 500px;
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+
 }
 
 #form>div {

@@ -131,9 +131,21 @@ nav ul {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    background: url(..//svg/Artboard\ 1.svg);
 
 
+
+}
+
+.who {
+    background: url(..//svg/who.svg);
+}
+
+.what {
+    background: url(..//svg/what.svg);
+}
+
+.when {
+    background: url(..//svg/when.svg);
 }
 
 
@@ -164,6 +176,7 @@ nav ul {
 
 .outer-div>div>p {
     text-align: left;
+    padding-top: 400px;
 }
 
 

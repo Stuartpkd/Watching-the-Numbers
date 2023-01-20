@@ -321,10 +321,22 @@ nav ul {
     padding: 20px 20px;
 }
 
-#sources-container>div>div {
-    text-align: left;
-    padding: 20px 20px;
+#source-container {
+    padding-right: 20px;
+}
 
+#source-container>div {
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#source-container>div>a {
+    text-decoration: none;
+}
+
+#hover-link>a:hover {
+    border-bottom: 1px solid #a34646;
 }
 
 /* Form styling */

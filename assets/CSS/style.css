@@ -26,6 +26,7 @@ p {
 
 #arrow-down {
     text-align: center;
+    padding: 40px 40px;
 
 }
 
@@ -137,15 +138,15 @@ nav ul {
 }
 
 .who {
-    background: url(..//svg/who.svg);
+    background: url(..//svg/who.svg) no-repeat;
 }
 
 .what {
-    background: url(..//svg/what.svg);
+    background: url(..//svg/what.svg) no-repeat;
 }
 
 .when {
-    background: url(..//svg/when.svg);
+    background: url(..//svg/when.svg) no-repeat;
 }
 
 
@@ -382,6 +383,9 @@ button {
     font-family: Montserrat, sans-serif;
     font-size: medium;
 }
+
+/* arrow styling */
+
 
 
 /* Footer */

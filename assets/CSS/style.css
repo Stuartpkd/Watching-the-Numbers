@@ -18,7 +18,7 @@ body {
 
 p {
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: x-large;
 }
 
@@ -26,7 +26,7 @@ p {
 
 #arrow-down {
     text-align: center;
-    padding: 40px 40px;
+    margin: 0;
 
 }
 
@@ -38,6 +38,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #a34646;
+    font-size: 4rem;
 
 
 
@@ -114,42 +115,47 @@ nav ul {
 
 /* Index Section styling */
 
-#intro {
-    display: flexbox;
-}
+
 
 
 
 .outer-div {
     display: flex;
-    flex-direction: row;
+
     align-items: center;
     min-height: 50rem;
     margin: 0;
     padding: 0;
     gap: 1rem;
-    border: 10px #a34646 solid;
+
 
 
 }
 
-.outer-div>* {}
-
-
-
-
-
-.who {
-    background: url(..//svg/who.svg) no-repeat;
+#intro>h1 {
+    margin: 2rem;
 }
 
-.what {
-    background: url(..//svg/what.svg) no-repeat;
+.outer-div>div {
+    min-height: 50rem;
+
 }
 
-.when {
-    background: url(..//svg/when.svg) no-repeat;
+.outer-div>div>p {
+    padding: 3rem;
+    min-width: 300px;
 }
+
+
+.intro-image {
+    height: 500px;
+    width: 100%;
+
+}
+
+
+
+
 
 
 
@@ -392,9 +398,11 @@ footer {
 
 @media screen and (max-width: 1200px) {
     #intro {
-        width: 65%;
-        height: 1200px;
+        display: grid;
+
         margin: 0 auto;
+
+
     }
 
     #hero-image {

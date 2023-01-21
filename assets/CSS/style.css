@@ -105,7 +105,7 @@ nav ul {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #353535;
+    border-bottom: 1px solid #a34646;
 }
 
 .active {
@@ -227,47 +227,37 @@ nav ul {
 
 /* Events Section styling*/
 
-#scenarios {
-    height: 600px;
-    width: 100%;
-    padding: 30px 0;
-    margin: 30px;
-
+.scenarios {
     display: flex;
 
-    align-content: center;
-    justify-content: center;
-
-}
-
-#scenarios>div {
-    height: 500px;
     align-items: center;
-    width: 100%;
-    padding: 30px 30px;
-    margin: 25px;
-
-
+    min-height: 50rem;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
 
 
 }
 
-#event-picture {
-    background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
+.scenarios>div {
+    flex-direction: row;
 }
 
-#country-text {
-    padding-top: 10px;
+.scenarios>h2 {
+    margin: 2rem;
 }
 
-#scenarios>div>h2 {
-    font-weight: 400;
-    padding-bottom: 30px;
+.scenarios>img {
+    width: 800px;
+    height: 800px;
 }
 
-#scenarios>div>p {
-    padding-top: 10px;
+.scenarios>p {
+    width: 900px;
+    padding: 3rem;
 }
+
+
 
 /* Sources styling */
 
@@ -370,14 +360,11 @@ button {
 /* Footer */
 
 footer {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #af5454;
-    padding: 70px;
-
-
+    height: 100px;
+    background-color: #a34646;
 }
+
+
 
 /* Media queries*/
 

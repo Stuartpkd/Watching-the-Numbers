@@ -326,16 +326,41 @@ button:hover {
     background-color: #d67070;
 }
 
-
-
-
-
 /* Footer */
 
 footer {
     height: 100px;
     background-color: #a34646;
+    color: #28262c;
+
+
 }
+
+.links>li {
+    color: #28262c;
+    display: inline;
+
+}
+
+.fa-brands {
+    color: #28262c;
+    font-size: xx-large;
+    padding: 0 1rem;
+
+}
+
+footer>ul {
+    list-style: none;
+}
+
+.links {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
 
 
 

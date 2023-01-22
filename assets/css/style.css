@@ -265,13 +265,8 @@ nav ul {
     height: 100px;
     width: 1000px;
     display: flex;
-
     padding: 40px 40px 60px 40px;
     flex-direction: column;
-
-
-
-
 }
 
 #sources>h1 {
@@ -285,62 +280,36 @@ nav ul {
 #source-container>div {
     text-align: left;
     padding: 20px 20px 20px 20px;
-
 }
 
 #source-container>div>a {
     text-decoration: none;
 }
 
-#hover-link>a:hover {
+.source-link:hover {
     border-bottom: 1px solid #a34646;
 }
 
 /* Form styling */
 
-#form-section {
-    height: 600px;
-    width: 100%;
-    padding: 120px 0 0 0;
-    margin: 30px;
-
+#register-container {
     display: flex;
-
-    align-content: center;
-    justify-content: center;
-}
-
-#form-container {
-    width: 100px;
-    height: 100px;
-    margin: 40px 40px;
-    padding: 30px 30px 30px 30px;
-}
-
-
-
-
-
-#form-image {
-    background: url(..//svg/Artboard\ 1.svg) center center no-repeat;
-    height: 500px;
-    width: 500px;
-
-
-
-}
-
-#form-image-container {
-    padding: 0 80px 0 0;
-}
-
-#form>div {
+    align-items: center;
+    min-height: 50rem;
+    margin: 0;
     padding: 0;
+    gap: 1rem;
+    justify-content: center;
 }
 
 #form-text {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#form-image {
+    width: 500px;
+    height: 500px;
 }
 
 button {
@@ -353,7 +322,11 @@ button {
     font-size: medium;
 }
 
-/* arrow styling */
+button:hover {
+    background-color: #d67070;
+}
+
+
 
 
 

@@ -262,7 +262,7 @@ nav ul {
 /* Sources styling */
 
 #sources {
-    height: 100px;
+
     width: 1000px;
     display: flex;
     padding: 40px 40px 60px 40px;
@@ -326,6 +326,23 @@ button {
 button:hover {
     background-color: #d67070;
 }
+
+/* Response styling */
+
+#response {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#response-image {
+
+    width: 1300px;
+    height: auto;
+}
+
+
 
 /* Footer */
 

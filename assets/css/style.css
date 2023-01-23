@@ -257,19 +257,19 @@ nav ul {
 }
 
 #stalingrad-image {
-    background: url(/assets/svg/stalingrad.svg);
+    background: url(..//svg/stalingrad.svg);
     width: 500px;
     height: 500px;
 }
 
 #berlin-image {
-    background: url(/assets/svg/berlin.svg);
+    background: url(..//svg/berlin.svg);
     width: 500px;
     height: 500px;
 }
 
 #shanghai-image {
-    background: url(/assets/svg/shanghai.svg);
+    background: url(..//svg/shanghai.svg);
     width: 500px;
     height: 500px;
 }

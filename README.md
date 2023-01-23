@@ -1,108 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Watching the Numbers
 
-Welcome Stuartpkd,
+I created this website to teach and inform people interested in history. Specifically people interested in WW2 history. The site is based around the casualties of WW2. With world conflicts seemingly on the rise recently, I thought it best to remind people of the consequences of war. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Watching the Numbers is made up of the following sections:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+1. Home
+2. Tragic Events
+3. Sources
+4. Register
 
-## Gitpod Reminders
+Site owner's goals:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. To teach those interested in history about the consequences of war.
+2. Inspire users to learn about current conflicts affecting people in the world today.
+3. To get users to register to recieve more information surrounding WW2.
+4. To inform users about lesser known tragedies during ww2.
+5. To provide reliable and unbiased sources supporting my statements.
 
-`python3 -m http.server`
+User goals:
 
-A blue button should appear to click: _Make Public_,
+1. As a first-time visitor, I want to easily find information about the casualties of WW2.
+2. As a first-time visitor, I want to learn about lesser known aspects of the war.
+3. As a first-time visitor, I would like to be able to register. To recieve more information to my email.
+4. As a recurring or first-time visitor, I would like to easily find sources to do my own research.
+5. As a recurring or first-time visitor, I would like to find clear and concise graphs on ww2 casualties.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+# UX / UI
 
-Another blue button should appear to click: _Open Browser_.
+## Strategy 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+After thinking about the strategy for my site, I came up with a target audience for my site. This also inckuded what features they would need from the site.
 
-To log into the Heroku toolbelt CLI:
+### Target users:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. 18 - 50 years old
+2. New / Seasoned people interested in history.
+3. People looking for unbiased sources on WW2 casualties.
+4. People who are interested in WW2.
+5. People interested in data surrounding WW2.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### What the user would look for:
 
-------
+* Easy to understand and visually appealing graphs displaying data.
+* A simple and clean site that is easy to traverse.
+* A site they can register on to recieve more information on WW2.
+* Learn something new about a subject that they may know a lot about.
 
-## Release History
+I wanted to keep the website as visually clean as possible. The numbers that needed to be included inside the graph
+were quite large. I did not want to take away from them by overloading the screen with other information. WIth the 
+site having a simple layout, this really helped make it responsive for mobile and tablets.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Scope
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+To help the user achieve their desired experience, these features were included:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* A clean header and nav bar to navgiate the website.
+* A sources page to allow the users to access unbiased information.
+* A register page for users to sign up for more information.
+* Two graphs showing the casualties of the Asian and European theatre.
+* A tragic events page to shed light on costly events during the war.
+* Social media links in the footer to lead to social media pages.
+* A link to return to the top of the page, as not to stop the users journey.
+* A clear introduction to the site to explain its purpose.
+* A response page informing the user they are registered.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Structure
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+This is a multi page layout, this was chosen as not to overload the user with too much information on one page. The nav bar allows the user to navigate the site to the information that they are interested in. An arrow is provided at the bottom of each page, so the user can continue their journey through the information provided. The home page provides two graphs showing the European and Asian theatres of war. I wanted to separate the two because each deserved their own graphs. The Tragic Events page was to then dive deeper into some of the more costly scenarios in WW2. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The sites goal was meant to give an overview of the wars cost and not to get to bogged down in specific details of it all. The home page would give the user an overview, which would then lead them to more specific scenarios in the tragic events page. Lastly if the user wanted to recieve more information they could register in the register page. As well as make use of the sources page to do some digging of their own. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Skeleton
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Wireframes
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Please be aware, the wireframes may not represent the site accurately. As the site was subject to change as I was building it.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

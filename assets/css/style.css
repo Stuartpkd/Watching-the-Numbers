@@ -30,6 +30,14 @@ p {
 
 }
 
+#arrow-up {
+    text-align: center;
+    margin: 5rem 0;
+
+}
+
+
+
 /* header and logo styling */
 
 h1,
@@ -69,7 +77,7 @@ h2 {
     bottom: 40px;
     left: 40px;
     color: #28262c;
-    font-size: 150%;
+    font-size: 3rem;
 }
 
 /* nav links*/
@@ -79,6 +87,7 @@ h2 {
     list-style-type: none;
     margin-right: 40px;
     color: #a34646;
+    overflow: hidden;
 
 }
 
@@ -87,6 +96,8 @@ h2 {
 #menu,
 #logo {
     line-height: 50px;
+    font-weight: 700;
+
 }
 
 nav ul {
@@ -293,6 +304,10 @@ nav ul {
 
 /* Form styling */
 
+#register-section {
+    padding-top: 5rem;
+}
+
 #register-container {
     display: flex;
     align-items: center;
@@ -303,6 +318,10 @@ nav ul {
     justify-content: center;
 }
 
+#register-h1 {
+    text-align: center;
+}
+
 #form-text {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -311,6 +330,15 @@ nav ul {
 #form-image {
     width: 500px;
     height: 500px;
+}
+
+form input {
+
+    background-color: #eeeeee;
+    min-height: 25px;
+    min-width: 200px;
+
+
 }
 
 button {

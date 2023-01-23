@@ -251,7 +251,7 @@ nav ul {
 }
 
 #leningrad-image {
-    background: url(/assets/svg/leningrad.svg);
+    background: url(..//svg/leningrad.svg);
     width: 500px;
     height: 500px;
 }

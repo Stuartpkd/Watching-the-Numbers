@@ -66,14 +66,14 @@ h2 {
 
 
 
-#hero-image {
-    height: 600px;
-    width: 100%;
+#hero-container {
+
+    width: 100vw;
     overflow: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
     align-self: center;
     background-size: cover;
     background-attachment: fixed;
@@ -452,6 +452,19 @@ footer>ul {
 /* Media queries*/
 
 @media screen and (max-width: 1200px) {
+    #logo {
+        float: none;
+        text-align: center;
+    }
+
+    #menu {
+        float: none;
+        text-align: center;
+        padding-left: 80px;
+
+    }
+
+
     .outer-div {
         flex-direction: column;
 
@@ -463,10 +476,6 @@ footer>ul {
         min-width: 400px;
     }
 
-    #hero-image {
-        min-width: 100%;
-        margin: 0 auto;
-    }
 
     #europe-graph {
         max-width: 1000px;
@@ -487,17 +496,7 @@ footer>ul {
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width:950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+    #menu {}
 
-    #logo {
-        float: left;
-        text-align: center;
-        padding-left: 60px;
-    }
+    #logo {}
 }

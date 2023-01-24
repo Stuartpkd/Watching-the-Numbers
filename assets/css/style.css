@@ -58,8 +58,22 @@ h2 {
     padding-left: 15px;
     padding-top: 1px;
 
+    @media screen and (max-width: 1200px) {
+
+
+        float: none;
+        text-align: center;
+
+
+    }
+
+
+
+
 
 }
+
+
 
 /* hero image*/
 
@@ -192,14 +206,14 @@ nav ul {
 
 #europe-graph {
 
-    height: 600px;
+    /* height: 600px;
     width: 1200px;
     margin: auto;
     text-align: center;
     padding: 0;
 
 
-    background: url(..//svg/europe-graph.svg) center center no-repeat;
+    background: url(..//svg/europe-graph.svg) center center no-repeat; */
 }
 
 
@@ -228,7 +242,7 @@ nav ul {
     background: url(..//svg/asia-graph.svg) center center no-repeat;
 }
 
-#casualties-container>p {
+.casualties-container>p {
     text-align: left;
     width: 1200px;
 }
@@ -237,7 +251,7 @@ nav ul {
 
 
 
-#war-casualties>p {
+.war-casualties>p {
     text-align: left;
     width: 508px;
 }
@@ -452,6 +466,12 @@ footer>ul {
 /* Media queries*/
 
 @media screen and (max-width: 1200px) {
+
+    #arrow-down {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
     #logo {
         float: none;
         text-align: center;
@@ -461,7 +481,6 @@ footer>ul {
         float: none;
         text-align: center;
         padding-left: 80px;
-
     }
 
 

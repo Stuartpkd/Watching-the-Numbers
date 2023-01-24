@@ -22,6 +22,10 @@ p {
     font-size: x-large;
 }
 
+section {
+    width: 100%
+}
+
 /* arrow styling*/
 
 #arrow-down {
@@ -106,7 +110,6 @@ h2 {
     left: 40px;
     color: #28262c;
     font-size: 3rem;
-    width: 400px;
 }
 
 /* nav links*/
@@ -181,10 +184,6 @@ nav ul {
 
 }
 
-.outer-div>div>p {
-    padding: 3rem;
-    min-width: 300px;
-}
 
 
 .intro-image {
@@ -226,20 +225,6 @@ nav ul {
     margin: 0;
     padding: 0;
     gap: 1rem;
-}
-
-
-
-#asia-graph {
-
-    height: 600px;
-    width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0;
-
-
-    background: url(..//svg/asia-graph.svg) center center no-repeat;
 }
 
 .casualties-container>p {
@@ -480,7 +465,7 @@ footer>ul {
     #menu {
         float: none;
         text-align: center;
-        padding-left: 80px;
+
     }
 
 
@@ -490,32 +475,18 @@ footer>ul {
 
     }
 
+    /* 
     .outer-div>div>p {
         max-width: 600px;
         min-width: 400px;
-    }
-
-
-    #europe-graph {
-        max-width: 1000px;
-    }
-
-    #casualties-container>p {
-        max-width: 800px;
-    }
+    } */
 
     #casualties-container {
         float: left;
-        padding: 30px 30px;
+
 
     }
 
 }
 
 /* For medium screen sizes from 950px wide and down */
-
-@media screen and (max-width:950px) {
-    #menu {}
-
-    #logo {}
-}

@@ -2,6 +2,7 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,10 @@ p {
 
 section {
     width: 100%
+}
+
+a {
+    text-decoration: none;
 }
 
 /* arrow styling*/
@@ -61,20 +66,7 @@ h2 {
     font-size: 250%;
     padding-left: 15px;
     padding-top: 1px;
-
-    @media screen and (max-width: 1200px) {
-
-
-        float: none;
-        text-align: center;
-
-
-    }
-
-
-
-
-
+    text-decoration: none;
 }
 
 
@@ -120,6 +112,8 @@ h2 {
     margin-right: 40px;
     color: #a34646;
     overflow: hidden;
+
+    @media screen and (max-width: 1200px) {}
 
 }
 
@@ -202,20 +196,6 @@ nav ul {
 
 
 /* Graph section */
-
-#europe-graph {
-
-    /* height: 600px;
-    width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0;
-
-
-    background: url(..//svg/europe-graph.svg) center center no-repeat; */
-}
-
-
 
 #casualties-container {
     display: flex;
@@ -460,11 +440,15 @@ footer>ul {
     #logo {
         float: none;
         text-align: center;
+        text-decoration: none;
+        padding: 0;
     }
 
     #menu {
         float: none;
         text-align: center;
+        padding: 0;
+        margin: 0;
 
     }
 
@@ -475,11 +459,7 @@ footer>ul {
 
     }
 
-    /* 
-    .outer-div>div>p {
-        max-width: 600px;
-        min-width: 400px;
-    } */
+
 
     #casualties-container {
         float: left;
@@ -490,3 +470,13 @@ footer>ul {
 }
 
 /* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 500px) {
+    #menu {
+        float: none;
+        text-align: center;
+        padding: 0;
+
+
+    }
+}

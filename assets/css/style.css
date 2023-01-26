@@ -462,10 +462,14 @@ footer>ul {
 
 @media screen and (max-width: 1200px) {
 
+    /* Arrows */
+
     #arrow-down {
         text-align: center;
         margin: 2rem 0;
     }
+
+    /* Hero Image Index */
 
     #hero-container {
         height: 58vh;
@@ -476,7 +480,7 @@ footer>ul {
 
     }
 
-
+    /* Logo/Nav */
 
     #logo {
         float: none;
@@ -492,6 +496,8 @@ footer>ul {
         margin: 0;
 
     }
+
+    /* Introduction */
 
     .section-h1 {
         padding: 0;
@@ -515,9 +521,6 @@ footer>ul {
 
     #casualties-container {
         float: left;
-
-
-
     }
 
     #hero-image-events {
@@ -542,14 +545,16 @@ footer>ul {
 
 @media screen and (max-width: 500px) {
 
+    /* Arrows */
+
     .arrow-up {
         margin: 0;
         padding-bottom: 30px;
         font-size: medium;
+        text-decoration: none;
     }
 
-
-
+    /* Nav/Menu */
 
     #nav-menu {
         display: none;
@@ -563,6 +568,8 @@ footer>ul {
 
 
     }
+
+    /* Index Hero Image */
 
     #hero-container {
         height: 30vh;
@@ -615,6 +622,8 @@ footer>ul {
         font-size: large;
     }
 
+    /* Sources */
+
     #sources {
         padding-top: 40px;
         min-height: 80vh;
@@ -631,6 +640,8 @@ footer>ul {
         font-size: large;
         padding-top: 10px;
     }
+
+    /* Registration */
 
     #register-container {
         flex-direction: column-reverse;

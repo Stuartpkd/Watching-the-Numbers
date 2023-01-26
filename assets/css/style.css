@@ -33,13 +33,13 @@ a {
 
 /* arrow styling*/
 
-#arrow-down {
+.arrow-down {
     text-align: center;
     margin: 5rem 0;
 
 }
 
-#arrow-up {
+.arrow-up {
     text-align: center;
     margin: 5rem 0;
     text-decoration: none;
@@ -68,6 +68,10 @@ h2 {
     padding-left: 15px;
     padding-top: 1px;
     text-decoration: none;
+}
+
+.menu {
+    float: right;
 }
 
 .hamburger {
@@ -162,7 +166,7 @@ h2 {
     justify-content: center;
 
 
-    background: url(..//svg/hero_image_index.svg) center center no-repeat;
+    background: url(/assets/svg/hero-image.svg) center center no-repeat;
     background-size: cover;
 
 }
@@ -177,20 +181,20 @@ h2 {
 
 /* nav links*/
 
-#menu {
+.menu {
     font-size: 110%;
     list-style-type: none;
     margin-right: 40px;
     color: #a34646;
     overflow: hidden;
 
-    @media screen and (max-width: 1200px) {}
+
 
 }
 
 
 
-#menu,
+.menu,
 #logo {
     line-height: 50px;
     font-weight: 700;
@@ -201,18 +205,18 @@ nav ul {
     float: right;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin-right: 20px;
     display: inline-block;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #a34646;
 }
 
@@ -232,6 +236,15 @@ nav ul {
     gap: 1rem;
 }
 
+.intro-h3 {
+    padding-left: 30px;
+    font-size: 2rem;
+}
+
+.outer-div>div>p {
+    padding: 30px;
+}
+
 .section-h1 {
     margin: 2rem;
 }
@@ -248,15 +261,6 @@ nav ul {
     width: 100%;
 
 }
-
-
-
-
-
-
-
-
-
 
 /* Graph section */
 
@@ -482,6 +486,15 @@ footer>ul {
         margin: 2rem 0;
     }
 
+    #hero-container {
+        height: 58vh;
+    }
+
+    #hero-image>h2 {
+        font-size: 2.5rem;
+
+    }
+
 
 
     #logo {
@@ -491,7 +504,7 @@ footer>ul {
         padding: 0;
     }
 
-    #menu {
+    .menu {
         float: none;
         text-align: center;
         padding: 0;
@@ -542,7 +555,7 @@ footer>ul {
     }
 
 
-    #menu {
+    .menu {
         float: none;
         text-align: center;
         padding: 0;
@@ -555,7 +568,7 @@ footer>ul {
     }
 
     #hero-image>h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-left: 10px;
         bottom: 0;
         left: 0;
@@ -566,19 +579,28 @@ footer>ul {
 
     }
 
+    .section_container>h1 {
+        font-size: 2rem;
+    }
+
     .section_container>p {
-        font-size: large;
+        font-size: medium;
+        padding: 10px;
+    }
+
+    .intro-image {
+        height: 350px;
     }
 
 
 
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
 
 
-    #menu {
+    .menu {
         float: none;
         text-align: center;
         padding: 0;
@@ -586,6 +608,15 @@ footer>ul {
 
     }
 
+    /* Introduction */
+
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
     /* Mobile menu */
 
     .mobile-menu {
@@ -595,15 +626,4 @@ footer>ul {
     .hamburger {
         display: none;
     }
-
-    /* Introduction */
-
-    h1 {
-        margin: 0;
-        font-size: 2rem;
-    }
-
-
-
-
 }

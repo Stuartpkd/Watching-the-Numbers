@@ -164,9 +164,7 @@ h2 {
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
-
-
-    background: url(/assets/svg/hero-image.svg) center center no-repeat;
+    background: url(..//svg/hero-image.svg) center center no-repeat;
     background-size: cover;
 
 }

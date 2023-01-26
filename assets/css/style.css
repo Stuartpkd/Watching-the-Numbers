@@ -17,6 +17,8 @@ body {
 
 }
 
+
+
 p {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -271,8 +273,17 @@ nav ul {
 /* Events hero image styling*/
 
 #hero-image-events {
-    height: 969px;
-    max-width: 100%;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    align-self: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
     background: url(..//svg/events-hero.svg) center center no-repeat;
     background-size: cover;
 }
@@ -281,38 +292,13 @@ nav ul {
 
 .scenarios {
     display: flex;
-
     align-items: center;
-    min-height: 50rem;
+
     margin: 0;
     padding: 0;
     gap: 1rem;
 
 
-}
-
-#leningrad-image {
-    background: url(..//svg/leningrad.svg) center center no-repeat;
-    width: 500px;
-    height: 500px;
-}
-
-#stalingrad-image {
-    background: url(..//svg/stalingrad.svg) center center no-repeat;
-    width: 500px;
-    height: 500px;
-}
-
-#berlin-image {
-    background: url(..//svg/berlin.svg) center center no-repeat;
-    width: 500px;
-    height: 500px;
-}
-
-#shanghai-image {
-    background: url(..//svg/shanghai.svg) center center no-repeat;
-    width: 500px;
-    height: 500px;
 }
 
 .scenarios>div {
@@ -323,13 +309,15 @@ nav ul {
     margin: 2rem;
 }
 
-.scenarios>img {
-    width: 800px;
-    height: 800px;
-}
+
 
 .scenarios>p {
     padding: 3rem;
+}
+
+.scenarios>img {
+    max-height: 500px;
+    max-width: 500px;
 }
 
 
@@ -538,6 +526,16 @@ footer>ul {
 
     }
 
+    #hero-image-events {
+        height: 58vh;
+    }
+
+    .scenarios {
+        flex-direction: column-reverse;
+        gap: 0;
+
+    }
+
 
 
 
@@ -548,6 +546,15 @@ footer>ul {
 /* For medium screen sizes from 500px wide and down */
 
 @media screen and (max-width: 500px) {
+
+    .arrow-up {
+        margin: 0;
+        padding-bottom: 30px;
+        font-size: medium;
+    }
+
+
+
 
     #nav-menu {
         display: none;
@@ -587,23 +594,33 @@ footer>ul {
         padding: 10px;
     }
 
-    .intro-image {
-        height: 350px;
-    }
+
 
     /* Events */
 
+    #hero-image-events {
+        height: 30vh;
+    }
+
     .scenarios {
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         align-items: center;
-        min-height: 50rem;
         margin: 0;
         padding: 0;
         gap: 1rem;
+        min-height: 0;
 
 
     }
+
+    .scenarios>p {
+
+        padding: 10px;
+        font-size: large;
+    }
+
+
 
 
 

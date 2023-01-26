@@ -361,10 +361,8 @@ nav ul {
 #register-container {
     display: flex;
     align-items: center;
-    min-height: 50rem;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
+    height: 100vh;
+    width: 90vw;
     justify-content: center;
 }
 
@@ -372,7 +370,7 @@ nav ul {
     text-align: center;
 }
 
-#form-text {
+.form-text {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -386,14 +384,11 @@ form input {
 
     background-color: #eeeeee;
     min-height: 25px;
-    min-width: 200px;
-
 
 }
 
 button {
     margin-top: 30px;
-
     padding: 10px;
     color: #28262c;
     background-color: #a34646;
@@ -535,13 +530,10 @@ footer>ul {
 
     }
 
-
-
-
-
-
-
-
+    #form-image {
+        width: 300px;
+        height: 300px;
+    }
 
 }
 
@@ -639,6 +631,29 @@ footer>ul {
         font-size: large;
         padding-top: 10px;
     }
+
+    #register-container {
+        flex-direction: column-reverse;
+        max-height: 50vh;
+    }
+
+    #register-section {
+        padding-top: 0;
+
+    }
+
+
+
+    #form-image {
+        height: 150px;
+        width: 150px;
+    }
+
+
+
+
+
+
 
 
 

@@ -84,6 +84,8 @@ h2 {
     background: none;
     outline: none;
     border: none;
+    z-index: 9999;
+    float: right;
 
 
 }
@@ -290,25 +292,25 @@ nav ul {
 }
 
 #leningrad-image {
-    background: url(..//svg/leningrad.svg);
+    background: url(..//svg/leningrad.svg) center center no-repeat;
     width: 500px;
     height: 500px;
 }
 
 #stalingrad-image {
-    background: url(..//svg/stalingrad.svg);
+    background: url(..//svg/stalingrad.svg) center center no-repeat;
     width: 500px;
     height: 500px;
 }
 
 #berlin-image {
-    background: url(..//svg/berlin.svg);
+    background: url(..//svg/berlin.svg) center center no-repeat;
     width: 500px;
     height: 500px;
 }
 
 #shanghai-image {
-    background: url(..//svg/shanghai.svg);
+    background: url(..//svg/shanghai.svg) center center no-repeat;
     width: 500px;
     height: 500px;
 }
@@ -327,7 +329,6 @@ nav ul {
 }
 
 .scenarios>p {
-    width: 900px;
     padding: 3rem;
 }
 
@@ -588,6 +589,20 @@ footer>ul {
 
     .intro-image {
         height: 350px;
+    }
+
+    /* Events */
+
+    .scenarios {
+        flex-direction: column;
+
+        align-items: center;
+        min-height: 50rem;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+
+
     }
 
 

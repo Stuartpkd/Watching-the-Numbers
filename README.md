@@ -2,6 +2,10 @@
 
 [Please visit the website here.](https://stuartpkd.github.io/Watching-the-Numbers/)
 
+![alt text](/docs/images/readme-hero.png)
+
+
+
 I created this website to teach and inform people interested in history. Specifically people interested in WW2 history. The site is based around the casualties of WW2. With world conflicts seemingly on the rise recently, I thought it best to remind people of the consequences of war. 
 
 Watching the Numbers is made up of the following sections:

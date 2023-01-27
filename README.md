@@ -76,7 +76,25 @@ The sites goal was meant to give an overview of the wars cost and not to get to 
 
 #### Wireframes
 
-Desktop Tablet Mobile [Desktop](/Docs/wireframe-pdf/desktop-wireframe.pdf)
+[Desktop](/Docs/wireframe-pdf/desktop-wireframe.pdf) [Tablet](/Docs/wireframe-pdf/tablet-wireframe.pdf) [Mobile](/Docs/wireframe-pdf/mobile-wireframe.pdf)
 
 Please be aware, the wireframes may not represent the site accurately. As the site was subject to change as I was building it.
+
+While designing the website the original intention was to have the registration form and the sources together on the same page. This however overloaded the page with too much information. So in the end I added another page to the nav so that the user could sign up at the end of their journey if they wanted to.
+
+When testing on small mobile screen sizes, the nav bar became too cluttered. So I decided to create a hamburger menu to contain the nav at smaller screen sizes. This kept the screen clear and organised even on a smaller display.
+
+## Surface
+
+I used a colour palette that I always end up returning to when designing something. It consists of shades of red and pink, with a contrast of a charcoal grey. I felt this worked well with the theme, indicating all of the bloodshed that happened during this terrible time. 
+
+I created all of the image assets for the page using illustrator. I wanted to create an abstract theme to all of the humans on the page. I hoped that this would allow anyone of any background to be able to relate to the imagery.
+
+The abstract crystals used in some of the acompanying imagery were meant to represent fragmented pieces of history that might be lost if not well documented. 
+
+Lastly I used Bebas Neue and Montserrat throughout the site. They pair together well. Bebas read like an old war time newspaper headline. Montserrat balanced this out as well.
+
+![alt text](/Docs/images/font-image.png)
+
+
 

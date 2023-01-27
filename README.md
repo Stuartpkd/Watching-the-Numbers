@@ -250,6 +250,10 @@ I validated my website during its development as not to run into many issues tow
 
 ![alt text](/docs/images/register-html.png)
 
+### Response Page
+
+![alt text](/docs/images/response-html.png)
+
 ### Site CSS
 
 ![alt text](/docs/images/css.png)

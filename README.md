@@ -1,5 +1,7 @@
 # Watching the Numbers
 
+[Please visit the website here.](https://fontawesome.com/)
+
 I created this website to teach and inform people interested in history. Specifically people interested in WW2 history. The site is based around the casualties of WW2. With world conflicts seemingly on the rise recently, I thought it best to remind people of the consequences of war. 
 
 Watching the Numbers is made up of the following sections:
@@ -254,6 +256,63 @@ I validated my website during its development as not to run into many issues tow
 ![alt text](/Docs/images/selector-bug.png)
 
 3. 
+
+## Deployment
+
+I deployed my website to GitPages using these steps:
+
+1. Sign into GitHub.
+2. Select your project from your repositories.
+3. At the top of your project select settings.
+4. Navigate your way to the pages section of settings.
+5. Select source and then select "Main" (It can also show up as master for some people)
+6. Click save.
+7. The page will generate a url, this will be where your page is hosted. (Be aware this may take a few minutes.)
+
+## Credits
+
+These are the sources that helped me make my way through this project. I used many pages for troubleshooting and wisdom when it came to creating my website.
+
+### Researching and inspiration:
+
+* [Awwwards](https://www.awwwards.com/)
+
+* [The Fallen of WW2](http://www.fallen.io/ww2/)
+
+* [Behance](https://www.behance.net/)
+
+* [Web Developer Portfolios](https://www.hostinger.com/tutorials/web-developer-portfolio#1_Charles_Bruyerre)
+
+### Code sources and tutorials:
+
+* [Kevin Powell Tutorials](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)
+
+* [Hamburger Menu](https://www.youtube.com/watch?v=OFKBep95lb4)
+
+* [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+* [Web Layout Critiques](https://www.youtube.com/@Hyperplexed)
+
+### Content 
+
+* [Wikipedia](https://en.m.wikipedia.org/wiki/World_War_II)
+
+* [National WW2 Mussum](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war)
+
+* [Statista](https://www.statista.com/statistics/1293510/second-world-war-fatalities-per-country/)
+
+* [Britanica](https://www.britannica.com/event/World-War-II)
+
+## Acknowledgements
+
+I would like to pass on a massive thank you to my mentor Harry Dhillon. He provided excellent adivce and was very supportive throughout the whole process. My good friend Daniel Roberts, he is a seasoned front end developer and also provided amazing tips. As well to all my family and friends who had a look at the site at my request. 
+
+
+
+
+
+
+
 
 
 

@@ -23,7 +23,7 @@ User goals:
 2. As a first-time visitor, I want to learn about lesser known aspects of the war.
 3. As a first-time visitor, I would like to be able to register. To recieve more information to my email.
 4. As a recurring or first-time visitor, I would like to easily find sources to do my own research.
-5. As a recurring or first-time visitor, I would like to find clear and concise graphs on ww2 casualties.
+5. As a recurring or first-time visitor, I would like to find links to the sites social media pages.
 
 
 
@@ -176,6 +176,66 @@ The code institute lessons were used many times to troubleshoot.
 I used google lighthouse to make sure that my page was accessable as possible. 
 
 ## Testing 
+
+1. As a first-time visitor, I want to easily find information about the casualties of WW2.
+
+After being directed downwards from the introduction section of the home page. The user will come across the graphs detailing the casualties of World War 2. The page is very clean and not crowded. As not to distract the user from their goal. I use the arrow to return to the top of the page to continue my journey.
+
+![alt text](/Docs/images/user-info-1.png)
+
+![alt text](/Docs/images/user-info-2.png)
+
+2. As a first-time visitor, I want to learn about lesser known aspects of the war.
+
+As a user I make my way to the tragic events page, listed in the navigation. After reading the introduction, I make my way through the detailing of each battle included in the events section.
+
+![alt text](/Docs/images/user-events-1.png)
+
+![alt text](/Docs/images/user-events-2.png)
+
+3. As a first-time visitor, I would like to be able to register. To recieve more information to my email.
+
+As the user, I navigate my way to the register page. I have been intrigued by the sites information and want to know more. I then fill in the displayed fields with my information. I press submit and I am then given a response page to let me know that I have successfully registered. 
+
+![alt text](/Docs/images/user-register-1.png)
+
+![alt text](/Docs/images/user-register-2.png)
+
+![alt text](/Docs/images/user-register-3.png)
+
+4. As a recurring or first-time visitor, I would like to easily find sources to do my own research.
+
+As the user, I use the nav bar to find the sources page. I see all of the sources are from a variety of backgrounds. Each link underlines when I hover over it. I then follow one of the links to its page. I then delve further into the information provided. 
+
+![alt text](/Docs/images/user-source-1.png)
+
+![alt text](/Docs/images/user-source-2.png)
+
+![alt text](/Docs/images/user-source-3.png)
+
+5. As a recurring or first-time visitor, I would like to find links to the sites social media pages.
+
+As the user I reach the bottom of a page and want to find out more about the site. I see the footer containing social media links. I click on one that leads me to a page I can now follow.
+
+![alt text](/Docs/images/user-media-1.png)
+
+![alt text](/Docs/images/user-media-2.png)
+
+## Lighthouse
+
+My web page scored very high on Google Lighthouse. Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. 
+
+Using SVGs for my images really helped with the page loading time. As well as the simple and clean layout. 
+
+
+
+
+
+
+
+
+
+
 
 
 

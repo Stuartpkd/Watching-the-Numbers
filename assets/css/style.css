@@ -9,12 +9,16 @@
     border: none;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #bf5858;
     background-color: #28262c;
-
 }
 
 
@@ -40,16 +44,23 @@ a {
 .arrow-down {
     text-align: center;
     margin: 5rem 0;
-
 }
 
 .arrow-up {
     text-align: center;
     margin: 5rem 0;
     text-decoration: none;
-
 }
 
+.arrow-style {
+    text-decoration: none;
+    color: #bf5858;
+    font-size: large;
+}
+
+.arrow-style:hover {
+    color: #ed7c7c;
+}
 
 
 /* header and logo styling */
@@ -61,9 +72,6 @@ h2 {
     letter-spacing: 2px;
     color: #bf5858;
     font-size: 4rem;
-
-
-
 }
 
 #logo {
@@ -90,8 +98,6 @@ h2 {
     border: none;
     z-index: 9999;
     float: right;
-
-
 }
 
 .hamburger .bar,
@@ -104,7 +110,6 @@ h2 {
     background-color: #e17777;
     margin: 4px 0px;
     transition: 0.4s;
-
 }
 
 .hamburger.is-active:before {
@@ -131,8 +136,6 @@ h2 {
     background-color: #a34646;
     padding-top: 100px;
     transition: 0.4s;
-
-
 }
 
 .mobile-menu.is-active {
@@ -143,22 +146,15 @@ h2 {
     color: #28262c;
     text-align: center;
     margin-bottom: 12px 16px;
-
 }
 
 .mobile-menu li:hover {
     background-color: #d67070;
 }
 
-
-
 /* hero image*/
 
-
-
-
 #hero-container {
-
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -172,7 +168,6 @@ h2 {
     justify-content: center;
     background: url(..//svg/hero-image.svg) center center no-repeat;
     background-size: cover;
-
 }
 
 .fade-in {
@@ -205,18 +200,12 @@ h2 {
     margin-right: 40px;
     color: #bf5858;
     overflow: hidden;
-
-
-
 }
-
-
 
 .menu,
 #logo {
     line-height: 50px;
     font-weight: 700;
-
 }
 
 nav ul {
@@ -241,7 +230,6 @@ nav ul {
 .active {
     border-bottom: 1px solid #bf5858;
 }
-
 
 /* Index Section styling */
 
@@ -272,12 +260,9 @@ nav ul {
 
 }
 
-
-
 .intro-image {
     height: 500px;
     width: 100%;
-
 }
 
 /* Graph section */
@@ -319,12 +304,9 @@ nav ul {
 .scenarios {
     display: flex;
     align-items: center;
-
     margin: 0;
     padding: 0;
     gap: 1rem;
-
-
 }
 
 .scenarios>div {
@@ -335,8 +317,6 @@ nav ul {
     margin: 2rem;
 }
 
-
-
 .scenarios>p {
     padding: 3rem;
 }
@@ -345,8 +325,6 @@ nav ul {
     max-height: 500px;
     max-width: 500px;
 }
-
-
 
 /* Sources styling */
 
@@ -360,15 +338,11 @@ nav ul {
 .source-container {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .source-link {
     font-size: 2.5rem;
 }
-
-
 
 .source-container>div>a {
     text-decoration: none;
@@ -417,10 +391,8 @@ nav ul {
 }
 
 form input {
-
     background-color: #eeeeee;
     min-height: 25px;
-
 }
 
 button {
@@ -438,22 +410,30 @@ button:hover {
 
 /* Response styling */
 
-#response {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
 
+
+.response-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.response-main {
+    flex-grow: 1;
+}
+
+.response-footer {
+    flex-shrink: 0;
+}
+
+#response-h1 {
+    text-align: center;
 }
 
 #response-image {
     height: 100%;
     width: 100%;
-
-
 }
-
-
 
 /* Footer */
 
@@ -461,14 +441,11 @@ footer {
     height: 100px;
     background-color: #a34646;
     color: #28262c;
-
-
 }
 
 .links>li {
     color: #28262c;
     display: inline;
-
 }
 
 .fa-brands:hover {
@@ -479,7 +456,6 @@ footer {
     color: #28262c;
     font-size: xx-large;
     padding: 0 1rem;
-
 }
 
 footer>ul {
@@ -491,15 +467,9 @@ footer>ul {
     display: flex !important;
     justify-content: center;
     padding-top: 30px;
-
 }
 
-
-
-
 /* Media queries*/
-
-
 
 @media screen and (max-width: 1200px) {
 
@@ -518,7 +488,6 @@ footer>ul {
 
     #hero-image>h2 {
         font-size: 2.5rem;
-
     }
 
     /* Logo/Nav */
@@ -535,7 +504,6 @@ footer>ul {
         text-align: center;
         padding: 0;
         margin: 0;
-
     }
 
     /* Introduction */
@@ -545,15 +513,10 @@ footer>ul {
         font-size: 3rem;
     }
 
-
-
-
     .outer-div {
         flex-direction: column;
         padding: 0;
         min-height: 30rem;
-
-
     }
 
     .outer-div>div {
@@ -568,8 +531,6 @@ footer>ul {
         height: 58vh;
     }
 
-
-
     .scenarios {
         flex-direction: column-reverse;
         gap: 0;
@@ -580,7 +541,6 @@ footer>ul {
         width: 300px;
         height: 300px;
     }
-
 }
 
 
@@ -597,19 +557,21 @@ footer>ul {
         text-decoration: none;
     }
 
+    .arrow-style {
+        font-size: small;
+        padding: 20px;
+    }
+
     /* Nav/Menu */
 
     #nav-menu {
         display: none;
     }
 
-
     .menu {
         float: none;
         text-align: center;
         padding: 0;
-
-
     }
 
     /* Index Hero Image */
@@ -627,7 +589,6 @@ footer>ul {
 
     .intro-text {
         padding: 0px 20px;
-
     }
 
     .section_container>h1 {
@@ -655,14 +616,11 @@ footer>ul {
 
     .scenarios {
         flex-direction: column-reverse;
-
         align-items: center;
         margin: 0;
         padding: 0;
         gap: 1rem;
         min-height: 0;
-
-
     }
 
     .scenarios>p {
@@ -695,7 +653,6 @@ footer>ul {
         flex-direction: column-reverse;
         max-height: 75vh;
         width: 100vw;
-
     }
 
     .register-intro>p {
@@ -705,9 +662,6 @@ footer>ul {
         min-width: 70vw;
         text-align: left;
     }
-
-
-
 
     .register-text {
         text-align: center;
@@ -720,40 +674,21 @@ footer>ul {
 
     #register-section {
         padding-top: 0;
-
     }
-
-
 
     #form-image {
         height: 150px;
         width: 150px;
         padding-top: 60px;
-
     }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 500px) {
-
-
 
     .menu {
         float: none;
         text-align: center;
         padding: 0;
-
-
     }
 
     /* Introduction */

@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Historical site based on the casualties of ww2">
+    <meta name="description"
+        content="A response page showing the user they have registered for more information from the site">
+    <meta name="keywords"
+        content="world, war, two, world war two, casualties, sources, information, european, asian, graph, history">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Watching the Numbers</title>
 </head>
 
 <!--Response Image and text-->
 
-<body>
+<body class="response-body">
     <header>
         <a href="index.html">
             <h1 id="logo">Watching the Numbers</h1>
@@ -31,7 +34,6 @@
                 <li>
                     <a href="register.html">Register</a>
                 </li>
-
             </ul>
         </nav>
 
@@ -58,27 +60,24 @@
             <li>
                 <a href="register.html">Register</a>
             </li>
-
         </ul>
     </nav>
 
 
-    <section id="response">
-        <h1>Thank you for registering!</h1>
-        <div id="response-image">
-            <img src="assets/svg/response.svg" class="fade-in"
-                alt="A group of children holding hands, spinning around in a circle.">
-        </div>
-
-
-
-    </section>
-
+    <main class="response-main">
+        <h1 id="response-h1">Thank you for registering!</h1>
+        <section id="response">
+            <div id="response-image">
+                <img src="assets/svg/response.svg" class="fade-in"
+                    alt="A group of children holding hands, spinning around in a circle.">
+            </div>
+        </section>
+    </main>
 
 
     <!--Footer-->
 
-    <footer>
+    <footer class="response-footer">
         <ul class="links">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -93,7 +92,6 @@
                     aria-label="Visit our Youtube page (opens a new tab)"><i
                         class="fa-brands fa-square-youtube"></i></a>
             </li>
-
         </ul>
     </footer>
 

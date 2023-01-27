@@ -307,7 +307,7 @@ nav ul {
 .introduction {
     display: flex;
     flex-direction: column;
-    max-width: 70vw;
+    max-width: 90vw;
 }
 
 .introduction>p {
@@ -380,6 +380,16 @@ nav ul {
 
 #register-section {
     padding-top: 5rem;
+}
+
+.register-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-intro>p {
+    text-align: center;
+    padding-top: 20px;
 }
 
 #register-container {
@@ -551,6 +561,8 @@ footer>ul {
         height: 58vh;
     }
 
+
+
     .scenarios {
         flex-direction: column-reverse;
         gap: 0;
@@ -628,6 +640,12 @@ footer>ul {
         height: 30vh;
     }
 
+    .introduction>p {
+        padding-left: 10px;
+        font-size: large;
+        min-width: 80vw;
+    }
+
     .scenarios {
         flex-direction: column-reverse;
 
@@ -641,7 +659,6 @@ footer>ul {
     }
 
     .scenarios>p {
-
         padding: 10px;
         font-size: large;
     }
@@ -672,6 +689,22 @@ footer>ul {
         max-height: 75vh;
         width: 100vw;
 
+    }
+
+    .register-intro>p {
+        font-size: large;
+        padding-top: 20px;
+        padding-left: 20px;
+        min-width: 70vw;
+        text-align: left;
+    }
+
+
+
+
+    .register-text {
+        text-align: center;
+        padding: 200px;
     }
 
     #register-h1 {

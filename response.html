@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Historical site based on the casualties of ww2">
-    <meta http-equiv="refresh" content=10; URL="index.html" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Watching the Numbers</title>
 </head>
@@ -14,15 +13,93 @@
 <!--Response Image and text-->
 
 <body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Watching the Numbers</h1>
+        </a>
+        <nav id="nav-menu">
+            <ul class="menu">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="events.html">Tragic Events</a>
+                </li>
+                <li>
+                    <a href="sources.html">Sources</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!--Hamburger Menu-->
+
+        <button class="hamburger">
+            <span class="bar">
+
+            </span>
+        </button>
+    </header>
+
+    <nav>
+        <ul class="mobile-menu menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="events.html">Tragic Events</a>
+            </li>
+            <li>
+                <a href="sources.html">Sources</a>
+            </li>
+            <li>
+                <a href="register.html">Register</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
     <section id="response">
         <h1>Thank you for registering!</h1>
         <div id="response-image">
-            <img src="assets/svg/response.svg" alt="A group of children holding hands, spinning around in a circle.">
+            <img src="assets/svg/response.svg" class="fade-in"
+                alt="A group of children holding hands, spinning around in a circle.">
         </div>
 
 
-        <div>
-            <p>This page will redirect you in 10 seconds.</p>
-        </div>
+
     </section>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <ul class="links">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/f0c2b5c4bf.js" crossorigin="anonymous"></script>
+
+    <!--Javascript for hamburger menu-->
+    <script src="./js/main.js"></script>
 </body>

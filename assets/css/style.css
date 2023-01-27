@@ -440,7 +440,8 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 30px;
+    text-align: center;
+
 }
 
 #response-image {

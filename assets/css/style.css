@@ -645,7 +645,13 @@ footer>ul {
 
     #register-container {
         flex-direction: column-reverse;
-        max-height: 50vh;
+        max-height: 75vh;
+        width: 100vw;
+
+    }
+
+    #register-h1 {
+        padding: 30px;
     }
 
     #register-section {
@@ -658,6 +664,8 @@ footer>ul {
     #form-image {
         height: 150px;
         width: 150px;
+        padding-top: 60px;
+
     }
 
 

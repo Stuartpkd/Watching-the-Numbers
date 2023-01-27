@@ -173,6 +173,20 @@ h2 {
 
 }
 
+.fade-in {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 #hero-image>h2 {
     position: absolute;
     bottom: 40px;
@@ -289,6 +303,16 @@ nav ul {
 }
 
 /* Events Section styling*/
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
+.introduction>p {
+    padding: 3rem;
+}
 
 .scenarios {
     display: flex;

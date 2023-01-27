@@ -33,7 +33,7 @@ User goals:
 
 ## Strategy 
 
-After thinking about the strategy for my site, I came up with a target audience for my site. This also inckuded what features they would need from the site.
+After thinking about the strategy for my site, I came up with a target audience for my site. This also included what features they would need from the site.
 
 ### Target users:
 
@@ -50,7 +50,7 @@ After thinking about the strategy for my site, I came up with a target audience 
 * A site they can register on to recieve more information on WW2.
 * Learn something new about a subject that they may know a lot about.
 
-I wanted to keep the website as visually clean as possible. The numbers that needed to be included inside the graph
+I wanted to keep the website as visually clean as possible. The numbers that need to be included inside the graph
 were quite large. I did not want to take away from them by overloading the screen with other information. WIth the 
 site having a simple layout, this really helped make it responsive for mobile and tablets.
 
@@ -58,9 +58,9 @@ site having a simple layout, this really helped make it responsive for mobile an
 
 To help the user achieve their desired experience, these features were included:
 
-* A clean header and nav bar to navgiate the website.
-* A sources page to allow the users to access unbiased information.
-* A register page for users to sign up for more information.
+* A clean header and nav bar to navigate the website.
+* A sources page to allow users to access unbiased information.
+* A registration page for users to sign up for more information.
 * Two graphs showing the casualties of the Asian and European theatre.
 * A tragic events page to shed light on costly events during the war.
 * Social media links in the footer to lead to social media pages.
@@ -70,50 +70,49 @@ To help the user achieve their desired experience, these features were included:
 
 ## Structure
 
-This is a multi page layout, this was chosen as not to overload the user with too much information on one page. The nav bar allows the user to navigate the site to the information that they are interested in. An arrow is provided at the bottom of each page, so the user can continue their journey through the information provided. The home page provides two graphs showing the European and Asian theatres of war. I wanted to separate the two because each deserved their own graphs. The Tragic Events page was to then dive deeper into some of the more costly scenarios in WW2. 
+This is a multi page layout; this was chosen as not to overload the user with too much information on one page. The nav bar allows the user to navigate the site to the information that they are interested in. An arrow is provided at the bottom of each page, so the user can continue their journey through the information provided. The home page provides two graphs showing European and Asian theatres of war. I wanted to separate the two because each deserved their own graphs. The Tragic Events page dives deeper into some of the more costly scenarios in WW2.
 
-The sites goal was meant to give an overview of the wars cost and not to get to bogged down in specific details of it all. The home page would give the user an overview, which would then lead them to more specific scenarios in the tragic events page. Lastly if the user wanted to recieve more information they could register in the register page. As well as make use of the sources page to do some digging of their own. 
+The site's goal was meant to give an overview of the war's cost and not to get to bogged down in specific details of it all. The home page would give the user an overview, which would then lead them to more specific scenarios on the tragic events page. Lastly, if the user wanted to recieve more information, they could register on the register page. As well as make use of the sources page to do some digging of their own.
 
 ### Skeleton
 
 #### Wireframes
 
-[Desktop](/Docs/wireframe-pdf/desktop-wireframe.pdf) [Tablet](/Docs/wireframe-pdf/tablet-wireframe.pdf) [Mobile](/Docs/wireframe-pdf/mobile-wireframe.pdf)
+[Desktop](/docs/wireframe-pdf/desktop-wireframe.pdf) [Tablet](/docs/wireframe-pdf/tablet-wireframe.pdf) [Mobile](/docs/wireframe-pdf/mobile-wireframe.pdf)
 
 Please be aware, the wireframes may not represent the site accurately. As the site was subject to change as I was building it.
 
-While designing the website the original intention was to have the registration form and the sources together on the same page. This however overloaded the page with too much information. So in the end I added another page to the nav so that the user could sign up at the end of their journey if they wanted to.
+While designing the website, the original intention was to have the registration form and the sources together on the same page. This however, overloaded the page with too much information. So in the end I added another page to the nav so that the user could sign up at the end of their journey if they wanted to.
 
-When testing on small mobile screen sizes, the nav bar became too cluttered. So I decided to create a hamburger menu to contain the nav at smaller screen sizes. This kept the screen clear and organised even on a smaller display.
+When testing on small mobile screen sizes, the nav bar became too cluttered. So I decided to create a hamburger menu to contain the nav at smaller screen sizes. This kept the screen clear and organized even on a smaller display.
 
 ## Surface
 
-I used a colour palette that I always end up returning to when designing something. It consists of shades of red and pink, with a contrast of a charcoal grey. I felt this worked well with the theme, indicating all of the bloodshed that happened during this terrible time. 
+I used a color palette that I always end up returning to when designing something. It consists of shades of red and pink, with a contrast of a charcoal gray. I felt this worked well with the theme, indicating all of the bloodshed that happened during this terrible time.
 
-I created all of the image assets for the page using illustrator. I wanted to create an abstract theme to all of the humans on the page. I hoped that this would allow anyone of any background to be able to relate to the imagery.
+I created all of the image assets for the page using illustrator. I wanted to create an abstract theme for all of the humans on the page. I hoped that this would allow anyone of any background to be able to relate to the imagery.
 
-The abstract crystals used in some of the acompanying imagery were meant to represent fragmented pieces of history that might be lost if not well documented. 
+The abstract crystals used in some of the accompanying imagery were meant to represent fragmented pieces of history that might be lost if not well documented.
 
-Lastly I used Bebas Neue and Montserrat throughout the site. They pair together well. Bebas read like an old war time newspaper headline. Montserrat balanced this out as well.
+Lastly I used Bebas Neue and Montserrat throughout the site. They pair together well. Bebas read like an old war-time newspaper headline. Montserrat balanced this out as well.
 
-![alt text](/Docs/images/font-image.png)
+![alt text](/docs/images/font-image.png)
 
 ## Features
 
-This website was designed with desktop in mind. However works very well on tablet and mobile. Some mobile users may suffer when it comes to the graph on the index page. A template design was used throughout the website to make sure that the style and layout was consistent.
+This website was designed with desktop in mind. However, works very well on tablet and mobile. Some mobile users may suffer when it comes to the graph on the index page. A template design was used throughout the website to make sure that the style and layout was consistent.
 
 ### Navbar
 
-The nav bar is placed top right on desktop, this keeps it out of the way of all of the imagery and information. When shrunk to a tablet size it centers itself to adapt to the closing screen size. Lastly it gets contained in a hamburger menu below 500px. The nav menu had too many pages to keep them all showing on smaller screen sizes. It is also shows the user which page they are currently on so they don't get lost. Below on the home and events page, there is a large hero image to remind the user of the common people who lost their lives in world war two.
+The nav bar is placed top right on the desktop; this keeps it out of the way of all of the imagery and information. When shrunk to a tablet size, it centers itself to adapt to the closing screen size. Lastly, it gets contained in a hamburger menu below 500px. The nav menu had too many pages to keep them all showing on smaller screen sizes. It also shows the user which page they are currently on so they don't get lost. Below on the home and events page, there is a large hero image to remind the user of the common people who lost their lives in World War Two.
 
 ### Home
 
-This page introduces the who what and why of the website. Then below the introduction of the site, the user is shown two graphs. These graphs depict the losses of the European and Asian theatre. The graphs contain the military and civilian deaths during the war. The Asian theatre is a reletivly unkown area of the war to most people, so I wanted to make sure it got its own spotlight. If I had more time and experience, I would have loved to have created an interactive graph. This would make the graphs easier to decipher on mobile. As well as allow me to show more detailed information. The end of the page has an arrow pointing up allowing the user to return to the top of the page.
+This page introduces the who, what and why of the website. Then, below the introduction of the site, the user is shown two graphs. These graphs depict the losses of European and Asian theatre. The graphs contain military and civilian deaths during the war. The Asian theatre is a relatively unknown area of the war to most people, so I wanted to make sure it got its own spotlight. If I had more time and experience, I would have loved to have created an interactive graph. This would make the graphs easier to decipher on mobile. As well as allow me to show more detailed information. The end of the page has an arrow pointing up, allowing the user to return to the top of the page.
 
 ### Tragic Events
 
-This page contains particularly costly events during the war. I wanted to include battles and scenarios that people generally would not know much about. It begins with an introduction section to explain its purpose. It then goes onto talk about the battle of Leningrad, Stalingrad, Berlin and Shanghai. Each image has something to do with its corrisponding information. I was wondering how many keen historians would notice them. This page also included an arrow to return to the top of the page.
-
+This page contains particularly costly events during the war. I wanted to include battles and scenarios that people generally would not know much about. It begins with an introduction section to explain its purpose. It then goes onto talk about the battles of Leningrad, Stalingrad, Berlin, and Shanghai. Each image has something to do with its corresponding information. I was wondering how many keen historians would notice them. This page also included an arrow to return to the top of the page.
 ### Sources
 
 This page was key in backing up where I got all of my information. Anyone interested in history should always be aware of where their sources come from. I included a variety of sources so that I could make my information as unbiased as possible.
@@ -121,7 +120,7 @@ The page has a link to each source, as well as some text to explain the backgrou
 
 ### Register
 
-The register page was made so that the user would be able to sign up to recieve further information on the topic. If the website did its job, the user would be interested in learning more about the topic. The form on the page contains a first name, last name and an email input. When submitted, the user will be brought to a response page. From here they can return to other pages to continue their journey, if they wish. 
+The register page was made so that the user would be able to sign up to recieve further information on the topic. If the website did its job, the user would be interested in learning more about the topic. The form on the page contains a first name, last name and an email input. When submitted, the user will be brought to a response page. From here they can return to other pages to continue their journey, if they wish.
 
 ### Footer
 
@@ -181,51 +180,53 @@ I used google lighthouse to make sure that my page was accessable as possible.
 
 1. As a first-time visitor, I want to easily find information about the casualties of WW2.
 
-After being directed downwards from the introduction section of the home page. The user will come across the graphs detailing the casualties of World War 2. The page is very clean and not crowded. As not to distract the user from their goal. I use the arrow to return to the top of the page to continue my journey.
+After being directed downwards from the introduction section of the home page. The user will come across graphs detailing the casualties of World War 2. The page is very clean and not crowded. As not to distract the user from their goal. I use the arrow to return to the top of the page to continue my journey.
 
-![alt text](/Docs/images/user-info-1.png)
+![alt text](/docs/images/user-info-1.png)
 
-![alt text](/Docs/images/user-info-2.png)
+![alt text](/docs/images/user-info-2.png)
 
 2. As a first-time visitor, I want to learn about lesser known aspects of the war.
 
 As a user I make my way to the tragic events page, listed in the navigation. After reading the introduction, I make my way through the detailing of each battle included in the events section.
 
-![alt text](/Docs/images/user-events-1.png)
+![alt text](/docs/images/user-events-1.png)
 
-![alt text](/Docs/images/user-events-2.png)
+![alt text](/docs/images/user-events-2.png)
 
 3. As a first-time visitor, I would like to be able to register. To recieve more information to my email.
 
 As the user, I navigate my way to the register page. I have been intrigued by the sites information and want to know more. I then fill in the displayed fields with my information. I press submit and I am then given a response page to let me know that I have successfully registered. 
 
-![alt text](/Docs/images/user-register-1.png)
+![alt text](/docs/images/user-register-1.png)
 
-![alt text](/Docs/images/user-register-2.png)
+![alt text](/docs/images/user-register-2.png)
 
-![alt text](/Docs/images/user-register-3.png)
+![alt text](/docs/images/user-register-3.png)
 
 4. As a recurring or first-time visitor, I would like to easily find sources to do my own research.
 
 As the user, I use the nav bar to find the sources page. I see all of the sources are from a variety of backgrounds. Each link underlines when I hover over it. I then follow one of the links to its page. I then delve further into the information provided. 
 
-![alt text](/Docs/images/user-source-1.png)
+![alt text](/docs/images/user-source-1.png)
 
-![alt text](/Docs/images/user-source-2.png)
+![alt text](/docs/images/user-source-2.png)
 
-![alt text](/Docs/images/user-source-3.png)
+![alt text](/docs/images/user-source-3.png)
 
 5. As a recurring or first-time visitor, I would like to find links to the sites social media pages.
 
 As the user I reach the bottom of a page and want to find out more about the site. I see the footer containing social media links. I click on one that leads me to a page I can now follow.
 
-![alt text](/Docs/images/user-media-1.png)
+![alt text](/docs/images/user-media-1.png)
 
-![alt text](/Docs/images/user-media-2.png)
+![alt text](/docs/images/user-media-2.png)
 
 ## Lighthouse
 
 My web page scored very high on Google Lighthouse. Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. 
+
+![alt text](/docs/images/lighthouse-desktop.png)
 
 Using SVGs for my images really helped with the page loading time. As well as the simple and clean layout. 
 
@@ -235,27 +236,35 @@ I validated my website during its development as not to run into many issues tow
 
 ### Home Page
 
+![alt text](/docs/images/home-html.png)
+
 ### Events Page
+
+![alt text](/docs/images/events-html.png)
 
 ### Sources Page
 
+![alt text](/docs/images/sources-html.png)
+
 ### Register Page
 
+![alt text](/docs/images/register-html.png)
+
 ### Site CSS
+
+![alt text](/docs/images/css.png)
 
 ## Bugs
 
 1. I had issues with some of the images on my page. The images are made up of polygons. For an unknown reason when exported, the triangles would have a gap inbetween their edges. This would show whatever colour happened to be on the other side. This was easily fixed by returning to the illustrator file and putting another copy of the artwork behind itself. The gaps remained, but the gap colour would not be noticed anymore.
 
-![alt text](/Docs/images/image-bug-1.png)
+![alt text](/docs/images/image-bug-1.png)
 
-![alt text](/Docs/images/image-bug-2.png)
+![alt text](/docs/images/image-bug-2.png)
 
 2. A strange bug kept me up at night for days. My footer had completely dissapeared and would not show back up. Turns out that one of the icons I imported from Font Awesome had also brought a bunch of CSS selectors with it. Just by pure chance one of the selectors coincided with my own for the social media icons in the footer. One of the rules in the imposter selector was display: none. It was an interesting bug to say the least. You can see it highlighted in the image below.
 
-![alt text](/Docs/images/selector-bug.png)
-
-3. 
+![alt text](/docs/images/selector-bug.png)
 
 ## Deployment
 

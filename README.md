@@ -76,5 +76,7 @@ The sites goal was meant to give an overview of the wars cost and not to get to 
 
 #### Wireframes
 
+Desktop Tablet Mobile [Desktop](/Docs/wireframe-pdf/desktop-wireframe.pdf)
+
 Please be aware, the wireframes may not represent the site accurately. As the site was subject to change as I was building it.
 

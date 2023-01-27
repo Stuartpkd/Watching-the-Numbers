@@ -227,6 +227,36 @@ My web page scored very high on Google Lighthouse. Lighthouse is an open-source,
 
 Using SVGs for my images really helped with the page loading time. As well as the simple and clean layout. 
 
+## HTML and CSS Validation
+
+I validated my website during its development as not to run into many issues towards the end. Luckily there were not many errors throughout. Some warnings still remain, but this is as to the use of h1 tags. 
+
+### Home Page
+
+### Events Page
+
+### Sources Page
+
+### Register Page
+
+### Site CSS
+
+## Bugs
+
+1. I had issues with some of the images on my page. The images are made up of polygons. For an unknown reason when exported, the triangles would have a gap inbetween their edges. This would show whatever colour happened to be on the other side. This was easily fixed by returning to the illustrator file and putting another copy of the artwork behind itself. The gaps remained, but the gap colour would not be noticed anymore.
+
+![alt text](/Docs/images/image-bug-1.png)
+
+![alt text](/Docs/images/image-bug-2.png)
+
+2. A strange bug kept me up at night for days. My footer had completely dissapeared and would not show back up. Turns out that one of the icons I imported from Font Awesome had also brought a bunch of CSS selectors with it. Just by pure chance one of the selectors coincided with my own for the social media icons in the footer. One of the rules in the imposter selector was display: none. It was an interesting bug to say the least. You can see it highlighted in the image below.
+
+![alt text](/Docs/images/selector-bug.png)
+
+3. 
+
+
+
 
 
 
